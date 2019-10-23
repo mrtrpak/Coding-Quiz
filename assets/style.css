@@ -13,6 +13,10 @@ header {
     background-color: skyblue;
 }
 
+.scoresLink {
+    margin-left: 20px;
+}
+
 a {
     color: black;
     transition: all 1s;
@@ -21,9 +25,14 @@ a {
 
 a:hover {
     color: white;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
+.timerContainer {
+    margin: auto 10px;
+}
+
+/* body content styles */
 h1 {
     margin-top: 20px;
 }    
@@ -41,4 +50,9 @@ h2 {
 
 .btn {
     margin: 10% 0;
+}
+
+/* footer styles */
+footer {
+    background-color: lightgrey;
 }

@@ -11,7 +11,7 @@ var questions = [
     },
     {
         title: "What tag is used to link to external style sheets?",
-        choices: ["<style>", "<head>", "<link>", "<div>"],
+        choices: ["<style>", "<head>", "<link>", "<style>"],
         answer: "<link>"
     },
     {
