@@ -9,18 +9,22 @@ h1, h2, h5 {
 
 /* nav and header styles */
 header {
+    width: 100%;
+    position: absolute;
     height: 50px;
     background-color: skyblue;
 }
 
 .scoresLink {
-    margin-left: 20px;
+    margin-left: 2%;
 }
 
 a {
     color: black;
     transition: all 1s;
     margin: auto 10px;
+    text-align: center;
+    font-size: 16px;
 }
 
 a:hover {
@@ -29,30 +33,34 @@ a:hover {
 }
 
 .timerContainer {
-    margin: auto 10px;
+    margin: auto 20px;
 }
 
 /* body content styles */
 h1 {
-    margin-top: 20px;
+    margin-top: 11%;
+    margin-bottom: 1%;
 }    
 
 .contentBox {
-    margin: 50px auto;
-    height: 475px;
-    width: 50%;
+    margin: 10px auto;
+    height: 375px;
+    width: 75%;
     background-color: skyblue;
 }
 
 h2 {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .btn {
-    margin: 10% 0;
+    margin: 5% auto;
 }
 
 /* footer styles */
 footer {
     background-color: lightgrey;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
