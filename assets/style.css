@@ -2,9 +2,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* nav and header styles */
 header {
     height: 50px;
     background-color: skyblue;
+}
+
+a {
+    color: black;
+    transition: all 1s;
+    margin: auto 10px;
+}
+
+a:hover {
+    color: white;
+    transform: scale(1.2);
 }
 
 h1 {
