@@ -1,0 +1,21 @@
+- Bringing up the website will show the quiz starting page
+    - in the start screen there is a link to
+        - Highscores
+        - My portfolio homepage
+        - Start quiz
+
+- Upon user clicking start quiz
+    - The start screen goes away
+    - Timer starts
+    - Quiz starts
+
+- Answering a question
+    - User chooses a selection
+    - Prompt whether correct or incorrect
+    - If incorrect deduct time from Timer
+    - Move on to next question 
+
+- Upon completion
+    - After last question your score shows (score = seconds left on timer)
+    - Ask user to input initials
+    - Save the initials with the score on local storage
