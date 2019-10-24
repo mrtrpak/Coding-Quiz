@@ -18,12 +18,12 @@
         <Header class="row justify-content-between">
                 <a class="nav-link active scoresLink col-auto" href="highscores.html">View High Scores</a>
                 
-                <div class="timerContainer col-auto">Timer: 0</div>
+                <div id="time-start" class="timerContainer col-auto">Timer: 75</div>
         </Header>
         <!-- nav header end -->
         
         <div class="row justify-content-center">
-            <h1 class="col col-3">
+            <h1 class="col col-12">
                 Coding Quiz
             </h1>               
         </div>
@@ -52,16 +52,34 @@
         <div id="quiz-screen" class="container d-none">
                 <section class="row contentBox justify-content-center">
                     <div class="col">
-                    <h2>Questions here</h2>
-                    <ul>
-                        <li>A: </li>
-                        <li>B: </li>
-                        <li>C: </li>
-                        <li>D: </li>
+                    <h2 id="question">Questions here</h2>
+                    <ul id="answer-options">
+                        <li>A:</li>
+                        <li>B:</li>
+                        <li>C:</li>
+                        <li>D:</li>
                     </ul>
+                    <h5 id="answer-prompt"></h5>
                     </div>
                 </section>
             </div>
+
+            <!-- enter score screen box -->
+            <div id="score-screen" class="container d-none">
+                    <section class="row contentBox contentBoxScore justify-content-center">
+                        <div>
+                            <h2 class="col col-12">All Done</h2>
+                            <h5 id="your-score">Your Score: </h5>
+                            <div id="score-display"></div>
+                            <div class="row justify-content-center initials">
+                                <input class="col col-9 text-center" id="saved-scores" type="text" placeholder="Enter your Initials" maxlength="3">
+                            </div>
+                            <div class="row justify-content-center">
+                                <input class="btn btn-primary col-6" type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </section>
+                </div>
 
         <!-- footer start -->
         <footer class="row justify-content-center">

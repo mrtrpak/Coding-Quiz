@@ -38,14 +38,14 @@ a:hover {
 
 /* body content styles */
 h1 {
-    margin-top: 11%;
-    margin-bottom: 1%;
+    margin-top: 10%;
+    margin-bottom: 2%;
 }    
 
 .contentBox {
     margin: 10px auto;
     height: 375px;
-    width: 75%;
+    width: 60%;
     background-color: skyblue;
 }
 
@@ -54,7 +54,7 @@ h2 {
 }
 
 .btn {
-    margin: 5% auto;
+    margin: 3% auto;
 }
 
 /* footer styles */
@@ -63,4 +63,14 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* submit scores and initials section styling */
+.initials {
+    margin-top: 30px;
+    padding: 3px;
+}
+
+.contentBoxScore {
+    height: 250px;
 }
