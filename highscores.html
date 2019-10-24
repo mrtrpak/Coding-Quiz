@@ -12,33 +12,32 @@
     <title>Coding Quiz</title>
   </head>
   <body>
-    <Header>
-        <div>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="https://mrtrpak.github.io">My Portfolio Page</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Take Quiz Again</a>
-                </li>
-            </ul>
-        </div>
-    </Header>
+    <div class="container-fluid">
+        <Header class="row justify-content-between">
+                <a class="nav-link active scoresLink col-auto" href="index.html">Take Quiz Again</a>
+        </Header>
     
-    <div class="row justify-content-center">
-        <h1 class="col col-12">
-            High Scores:
-        </h1>
-    </div>
-
-    <section class="row contentBox scoreDisplay justify-content-center">
-        <div class="col">
-            <div class="row justify-content-center">
-            </div class="col col-12">
-            <ol>
-            </ol>
+        <div class="row justify-content-center">
+            <h1 class="col col-12">
+                High Scores:
+            </h1>
         </div>
-    </section>
+
+        <section class="row contentBox scoreDisplay justify-content-center">
+            <div class="col">
+                <div class="row justify-content-center">
+                </div class="col col-12">
+                <ol>
+                </ol>
+            </div>
+        </section>
+
+        <footer class="row justify-content-center">
+            <div class="col col-auto">
+                    <a class="nav-link active" href="https://mrtrpak.github.io">My Portfolio Page</a>
+            </div>
+        </footer>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
