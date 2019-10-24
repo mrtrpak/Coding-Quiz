@@ -30,7 +30,7 @@ quizBtn.addEventListener("click", function(event) {
     for (var i = 0; i < choices.length; i++) {    
     var differentChoices = document.createElement("button");
     differentChoices.setAttribute("id", "choice")
-    differentChoices.setAttribute("style", "width:50%; margin:5px auto; justifyContent:center;")
+    differentChoices.setAttribute("style", "width:100%; margin:10px auto;")
     differentChoices.textContent = choices[i];
     options.appendChild(differentChoices);
     }

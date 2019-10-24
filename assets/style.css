@@ -65,6 +65,12 @@ footer {
     bottom: 0;
 }
 
+/* quiz questions section styling */
+ul {
+    padding: 10px;
+    margin: 10px 50px;
+}
+
 /* submit scores and initials section styling */
 .initials {
     margin-top: 30px;
