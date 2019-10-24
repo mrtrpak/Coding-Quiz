@@ -52,7 +52,8 @@ quizBtn.addEventListener("click", function(event) {
 });
 
 options.addEventListener("click", function(event) {
-    // if (event === "<header>")
+    if ("click" === questions[0].answer);
+    stop.Propagation();
     alert("boo");
 });
 

@@ -2,7 +2,7 @@ var questions = [
     {
         title: "What does NOT go in the head of a html?",
         choices: ["<title>", "style sheets", "<meta>", "<header>"],
-        answer: "header"
+        answer: "<header>"
     },
     {
         title: "What is content, padding, border and margin referring too?",
