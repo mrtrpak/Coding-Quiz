@@ -19,7 +19,7 @@ header {
     margin-left: 2%;
 }
 
-a {
+.aLink {
     color: black;
     transition: all 1s;
     margin: auto 10px;
@@ -27,7 +27,7 @@ a {
     font-size: 16px;
 }
 
-a:hover {
+.aLink:hover {
     color: white;
     transform: scale(1.1);
 }

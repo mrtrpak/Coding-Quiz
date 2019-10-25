@@ -12,7 +12,7 @@ var answerPrompt = document.getElementById("answer-prompt");
 
 var timeStart = document.getElementById("time-start");
 
-var timer = 75;
+var timer = 5;
 
 // event for button to bring up the quiz screen
 quizBtn.addEventListener("click", function(event) {
@@ -29,8 +29,8 @@ quizBtn.addEventListener("click", function(event) {
     var choices = questions[0].choices;
     for (var i = 0; i < choices.length; i++) {    
     var differentChoices = document.createElement("button");
-    differentChoices.setAttribute("id", "choice")
-    differentChoices.setAttribute("style", "width:100%; margin:10px auto;")
+    differentChoices.setAttribute("id", " btn btn-"+ [i]);
+    differentChoices.setAttribute("style", "width:100%; margin:10px auto;");
     differentChoices.textContent = choices[i];
     options.appendChild(differentChoices);
     }
@@ -51,11 +51,9 @@ quizBtn.addEventListener("click", function(event) {
     startTimer();
 });
 
-options.addEventListener("click", function(event) {
-    if ("click" === questions[0].answer);
-    stop.Propagation();
-    alert("boo");
-});
+
+
+
 
 
 

@@ -21,10 +21,10 @@ var questions = [
     },
     {
         title: "What is an array?",
-        choices: ["A variable that only holds one value at a time.",
+        choices: ["A variable that holds one value.",
                 "A function that that holds multiple values at one time.",
                 "One of the Javascript operators.",
-                "A special variable which holds more than one value at a time."                   
-    ]
+                "A variable which holds more than one value."],
+        answer: "A variable which holds more than one value."
     }
 ];

@@ -16,9 +16,9 @@
     <!-- nav header  -->
     <div class="container-fluid">
         <Header class="row justify-content-between">
-                <a class="nav-link active scoresLink col-auto" href="highscores.html">View High Scores</a>
+                <a class="nav-link active scoresLink col-auto aLink" href="highscores.html">View High Scores</a>
                 
-                <div id="time-start" class="timerContainer col-auto">Timer: 75</div>
+                <div id="time-start" class="timerContainer col-auto">Timer: 5</div>
         </Header>
         <!-- nav header end -->
         
@@ -66,25 +66,25 @@
 
             <!-- enter score screen box -->
             <div id="score-screen" class="container d-none">
-                    <section class="row contentBox contentBoxScore justify-content-center">
-                        <div>
-                            <h2 class="col col-12">All Done</h2>
-                            <h5 id="your-score">Your Score: </h5>
-                            <div id="score-display"></div>
-                            <div class="row justify-content-center initials">
-                                <input class="col col-9 text-center" id="saved-scores" type="text" placeholder="Enter your Initials" maxlength="3">
-                            </div>
-                            <div class="row justify-content-center">
-                                <input class="btn btn-primary col-6" type="submit" value="Submit">
-                            </div>
+                <section class="row contentBox contentBoxScore justify-content-center">
+                    <div>
+                        <h2 class="col col-12">All Done</h2>
+                        <h5 id="your-score">Your Score: </h5>
+                        <div id="score-display"></div>
+                        <div class="row justify-content-center initials">
+                            <input class="col col-9 text-center" id="saved-scores" type="text" placeholder="Enter your Initials" maxlength="3">
                         </div>
-                    </section>
-                </div>
+                        <div class="row justify-content-center">
+                            <input class="btn btn-primary col-6" onclick="location.href= 'highscores.html';" type="submit" value="Submit">
+                        </div>
+                    </div>
+                </section>
+            </div>
 
         <!-- footer start -->
         <footer class="row justify-content-center">
             <div class="col col-auto">
-                    <a class="nav-link active" href="https://mrtrpak.github.io">My Portfolio Page</a>
+                    <a class="nav-link active aLink" href="https://mrtrpak.github.io">My Portfolio Page</a>
             </div>
         </footer>
     </div>
