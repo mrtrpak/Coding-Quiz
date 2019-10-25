@@ -56,4 +56,3 @@ quizBtn.addEventListener("click", function(event) {
 
 
 
-
