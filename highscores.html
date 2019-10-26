@@ -14,7 +14,7 @@
   <body>
     <div class="container-fluid">
         <Header class="row justify-content-between">
-                <a class="nav-link active scoresLink col-auto" href="index.html">Take Quiz Again</a>
+                <a class="nav-link active scoresLink col-auto aLink" href="index.html">Take Quiz Again</a>
         </Header>
     
         <div class="row justify-content-center">
@@ -24,12 +24,9 @@
         </div>
 
         <section class="row contentBox scoreDisplay justify-content-center">
-            <div class="col">
-                <div class="row justify-content-center">
-                </div class="col col-12">
                 <ol>
                 </ol>
-            </div>
+            <button type="button" class="btn btn-danger text-center row" id="clear" onclick="clearLocal()">Clear Scores</button>
         </section>
 
         <footer class="row justify-content-center">

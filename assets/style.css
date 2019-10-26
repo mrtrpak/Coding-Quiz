@@ -67,8 +67,17 @@ footer {
 
 /* quiz questions section styling */
 ul {
-    padding: 10px;
-    margin: 10px 50px;
+    padding: 5px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.btn-primary {
+    margin: 5px;
+    width: 50%;
 }
 
 /* submit scores and initials section styling */

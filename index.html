@@ -18,7 +18,7 @@
         <Header class="row justify-content-between">
                 <a class="nav-link active scoresLink col-auto aLink" href="highscores.html">View High Scores</a>
                 
-                <div id="time-start" class="timerContainer col-auto">Timer: 5</div>
+                <div id="time-start" class="timerContainer col-auto">Timer: 60</div>
         </Header>
         <!-- nav header end -->
         
@@ -54,10 +54,18 @@
                     <div class="col">
                     <h2 id="question">Questions here</h2>
                     <ul id="answer-options">
-                        <li>A:</li>
-                        <li>B:</li>
-                        <li>C:</li>
-                        <li>D:</li>
+                        <li>
+                            <button type="button" class="btn btn-primary btn-lg" id="choice1" onclick="checkCorrect(this.id)">Choice 1</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-primary btn-lg" id="choice2" onclick="checkCorrect(this.id)">Choice 2</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-primary btn-lg" id="choice3" onclick="checkCorrect(this.id)">Choice 3</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-primary btn-lg" id="choice4" onclick="checkCorrect(this.id)">Choice 4</button>
+                        </li>
                     </ul>
                     <h5 id="answer-prompt"></h5>
                     </div>
@@ -70,7 +78,7 @@
                     <div>
                         <h2 class="col col-12">All Done</h2>
                         <h5 id="your-score">Your Score: </h5>
-                        <div id="score-display"></div>
+                        <div class="text-center" id="score-display"></div>
                         <div class="row justify-content-center initials">
                             <input class="col col-9 text-center" id="saved-scores" type="text" placeholder="Enter your Initials" maxlength="3">
                         </div>
@@ -96,6 +104,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- my javascript -->
     <script src="assets/questions.js"></script>
-    <script src="assets/script.js"></script>
+    <script src="assets/redo.js"></script>
 </body>
 </html>
