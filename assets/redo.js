@@ -24,8 +24,9 @@ var choice2 = document.getElementById("choice2");
 var choice3 = document.getElementById("choice3");
 var choice4 = document.getElementById("choice4");
 
-// score var
+// score var and initials var
 var score = 0;
+var initials = document.getElementById("saved-initials");
 
 // show score when entering initials var
 var scoreDisplay = document.getElementById("score-display");
@@ -88,6 +89,12 @@ function checkCorrect (clicked_id) {
 function endQuiz () {
     quizScreen.classList.add("d-none");
     scoreScreen.classList.remove("d-none");
+}
+
+// function for local storage
+function localStor () {
+    var highScoresScreen = document.getElementById("viewScores");
+    localStorage.setItem('initials', input);
 }
 
 // function to clear local storage

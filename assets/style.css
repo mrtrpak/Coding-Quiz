@@ -89,3 +89,8 @@ li {
 .contentBoxScore {
     height: 250px;
 }
+
+.submitBtn {
+    width: 100px;
+    text-align: center;
+}
