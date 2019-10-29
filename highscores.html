@@ -44,5 +44,20 @@
     <!-- my javascript -->
     <script src="assets/redo.js"></script>
     <script src="assets/questions.js"></script>
+    
+    <script>
+        var initialsArray = JSON.parse(localStorage.getItem("initials")); 
+        console.log("things from local storage", initialsArray);
+        for (var i = 0; i < initialsArray.length; i++) {
+            var h1 = document.createElement("h1");
+            var keys = Object.keys(initialsArray[i]);
+            h1.appendChild(document.createTextNode(keys[0] + initialsArray[i][keys[0]]));
+            // document.body.appendChild(h1);
+            var destination = document.getElementById("viewScores");
+            destination.appendChild(h1);
+            // console.log("these are keys", keys);
+            // console.log("here is text", keys[i], initialsArray[i][keys[i]]);
+        }   
+    </script>
 </body>
 </html>

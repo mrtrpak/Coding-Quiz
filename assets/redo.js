@@ -75,13 +75,19 @@ function checkCorrect (clicked_id) {
     if (document.getElementById(clicked_id).innerHTML === (questions[questionNum].answer)) {
         answerPrompt.innerHTML = "Correct!";
         questionNum++;
-        quizGame();
+        setTimeout(() => {
+            
+            quizGame();
+        }, 1000);
     } 
     else {
         timer = timer - 15;
         answerPrompt.innerHTML = "Wrong!";
         questionNum++;
-        quizGame();
+        setTimeout(() => {
+            
+            quizGame();
+        }, 1000);
     }
 }    
 
@@ -93,8 +99,15 @@ function endQuiz () {
 
 // function for local storage
 function localStor () {
-    var highScoresScreen = document.getElementById("viewScores");
-    localStorage.setItem('initials', input);
+    console.log("about to save local storage");
+    var scores = JSON.parse(localStorage.getItem("initials"));
+    var highScoresScreen = document.getElementById("score-display").textContent;
+    var initial = document.getElementById("saved-initials").value;
+    console.log("this is high score screen", highScoresScreen);
+    console.log(initial);
+    scores.push({[initial]: highScoresScreen});
+    console.log("scores about to save", scores);
+    localStorage.setItem('initials', JSON.stringify(scores));
 }
 
 // function to clear local storage
