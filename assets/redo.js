@@ -100,15 +100,18 @@ function endQuiz () {
 // function for local storage
 function localStor () {
     console.log("about to save local storage");
-    var scores = JSON.parse(localStorage.getItem("initials"));
-    var highScoresScreen = document.getElementById("score-display").textContent;
-    var initial = document.getElementById("saved-initials").value;
-    scores.push({[initial]: highScoresScreen});
+    var scores = JSON.parse(localStorage.getItem("initials") || "[]");
+
+    var newScore = { 
+        initials: document.getElementById("saved-initials").value,
+        score: document.getElementById("score-display").textContent
+    }
+    scores.push(newScore);
     localStorage.setItem('initials', JSON.stringify(scores));
 }
 
 // function to clear local storage
 function clearLocal () {
     localStorage.clear();
-    window.location.reload();
+    // window.location.reload();
 }

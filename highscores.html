@@ -24,7 +24,7 @@
         </div>
 
         <section class="container contentBox scoreDisplay">
-                <ol class="row justify-content-center" id="viewScores">
+                <ol class="justify-content-center" id="viewScores">
                 </ol>
                 <div class="row justify-content-center">
                     <button type="button" class="btn btn-danger text-center" id="clear" onclick="clearLocal()">Clear Scores</button>
@@ -49,13 +49,12 @@
     
     <script>
         var initialsArray = JSON.parse(localStorage.getItem("initials")); 
+        var olList = document.getElementById("viewScores")
         console.log("things from local storage", initialsArray);
         for (var i = 0; i < initialsArray.length; i++) {
-            var h2 = document.createElement("h2");
-            var keys = Object.keys(initialsArray[i]);
-            h2.appendChild(document.createTextNode(keys[0] + initialsArray[i][keys[0]]));
-            var destination = document.getElementById("viewScores");
-            destination.appendChild(h2);
+            var newLi = document.createElement("li");
+            newLi.textContent = initialsArray[i].initials + ": " + initialsArray[i].score;
+            olList.appendChild(newLi);
         }   
     </script>
 </body>
