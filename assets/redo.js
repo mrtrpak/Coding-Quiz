@@ -103,10 +103,7 @@ function localStor () {
     var scores = JSON.parse(localStorage.getItem("initials"));
     var highScoresScreen = document.getElementById("score-display").textContent;
     var initial = document.getElementById("saved-initials").value;
-    console.log("this is high score screen", highScoresScreen);
-    console.log(initial);
     scores.push({[initial]: highScoresScreen});
-    console.log("scores about to save", scores);
     localStorage.setItem('initials', JSON.stringify(scores));
 }
 
