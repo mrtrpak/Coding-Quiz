@@ -1,11 +1,11 @@
 # Coding-Quiz
 
 #### Table of Contents
-[Description](#Description)
-[App Guideline](#Application-Guideline)
-[Difficulties](#Difficulties)
-[Link](https://mrtrpak.github.io/Coding-Quiz/)
-[Photos](#Photos)
+1. [Description](#Description)
+2. [App Guideline](#Application-Guideline)
+3. [Difficulties](#Difficulties)
+4. [Link](https://mrtrpak.github.io/Coding-Quiz/)
+5. [Photos](#Photos)
 
 ## Description
 
