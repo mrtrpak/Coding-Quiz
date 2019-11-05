@@ -1,5 +1,12 @@
 # Coding-Quiz
 
+#### Table of Contents
+[Description](#Description)
+[App Guideline](#Application-Guideline)
+[Difficulties](#Difficulties)
+[Link](https://mrtrpak.github.io/Coding-Quiz/)
+[Photos](#Photos)
+
 ## Description
 
 As a coding bootcamp student I want to build a quiz app that will challenge my fellow peers and show the javascript knowledge I know and able to implement into the app.
