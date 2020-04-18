@@ -6,6 +6,7 @@
 3. [Difficulties](#Difficulties)
 4. [Link](https://mrtrpak.github.io/Coding-Quiz/)
 5. [Photos](#Photos)
+6. [Future](#For-the-Future)
 
 ## Description
 
@@ -40,3 +41,7 @@ I came across a few obstacles when I was making this app. One issue I was strugg
 ![website photo](/photos/homepage.png)
 
 ![score screen photo](/photos/scorescreen.png)
+
+## For the Future
+
+- have a user be able to choose between different quizzes and see how their past results stack up against others who have taken the quiz.
