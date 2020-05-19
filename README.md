@@ -13,6 +13,10 @@
 
 As a coding bootcamp student I want to build a quiz app that will challenge my fellow peers and show the javascript knowledge I know and able to implement into the app.
 
+## How to Start
+
+once the code is forked view the document in the browser to be able to start the quiz.
+
 ## Application Guideline
 
 In this app once the user clicks "start quiz" the quiz screen with questions and the possible choices will come up. At that point the timer will start and count down by 1 every second. 
